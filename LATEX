@@ -1,0 +1,1688 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{stmaryrd}
+\usepackage{fvextra, csquotes}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\graphicspath{ {./images/} }
+
+\title{The function $f$ is defined by $f(x)=8+\sqrt{x}$. What is the value of $f(36)$ ? }
+
+\author{A) Zero\\
+C) $T w o$\\
+B) One\\
+D) Three}
+\date{}
+
+
+\begin{document}
+\maketitle
+$$
+f(x)=|71-2 x|
+$$
+
+1. The function $f$ is defined by the given equation. For which of the following values of $k$ does $f(k)=3 k$ ?\\
+A) $\frac{71}{5}$\\
+C) $\frac{213}{5}$\\
+B) $\frac{71}{2}$\\
+D) 71
+
+2. \section{The function $f$ is defined by}
+$$
+f(x)=6(2 x+4) \text {. }
+$$
+
+3. \section{For what value of $x$ does $f(x)=48 ?$}
+
+4. \section{The function $g$ is defined by}
+$$
+g(x)=\sqrt{6 x+7} .
+$$
+
+5. What is the value of $g(3)$ ?\\
+A) $\frac{5}{6}$\\
+C) 5\\
+B) $\frac{25}{6}$\\
+D) 25
+
+6. \section{The function $g$ is defined by}
+$$
+g(x)=\sqrt{6 x+7} .
+$$
+
+7. What is the value of $g(3)$ ?\\
+A) $\frac{5}{6}$\\
+C) 5\\
+B) $\frac{25}{6}$\\
+D) 25
+
+8. A) 0\\
+C) 17\\
+B) 14\\
+D) 26
+
+9. The function $h$ is defined by $h(x)=5|x|$. What is the value of $h(-3)$ ?\\
+A) -15\\
+C) 8\\
+B) 2\\
+D) 15
+
+10. The function $f$ is defined by $f(x)=|x-6 x|$. What value of $a$ satisfies $f(7)-f(a)=-15$ ?\\
+A) -22\\
+C) 10\\
+B) 3\\
+D) 75
+
+11. \section{The function $g$ is defined by}
+12. \section{$g(x)=\sqrt{5 x+1}$.}
+13. \section{What is the value of $g(7) ?$}
+A) $\frac{6}{5}$\\
+C) 6\\
+B) $\frac{36}{5}$\\
+D) 36
+
+14. The function $f$ is defined by $f(x)=5+\sqrt{x}$. What is the value of $f(64)$ ?\\
+A) 0\\
+B) 13\\
+C) 21\\
+D) 37
+
+15. The function $f$ is defined by $f(x)=x^{3}+17$. What is the value of $f(2) ?$
+
+16. The function $g$ is defined by $g(x)=\frac{x}{2}$. For what value of $x$ does $g(x)=244$ ?
+
+17. The function $k$ is defined by
+
+$$
+k(x)=x^{3}+700
+$$
+
+What is the value of $k(x)$ when $x=2$ ?
+
+18. The function $f$ is defined by $f(x)=x^{3}+27$. What is the value of $f(2) ?$
+
+19. The function $k$ is defined by $k(s)=$ $\sqrt{s+110}$. If $k(53 p)=p$, where $p$ is a constant, what is the value of $p$ ?
+
+20. The function $h$ is defined by $h(x)=7|x|$. What is the value of $h(-2)$ ?\\
+A) -14\\
+C) 9\\
+B) 5\\
+D) 14
+
+21. \section*{The function $f$ is defined by $f(x)=\frac{16+x^{2}}{2 x}$. }
+ What is the value of $f(-4)$ ?A) -8\\
+B) -4\\
+C) 4\\
+D) 8
+
+22. The function $f$ is defined by $f(x)=-3 x+5$, and $\frac{1}{2} f(a)=10$, where $a$ is a constant. What is the value of $a$ ?\\
+A) -8\\
+B) -5\\
+C) 5\\
+D) 8
+
+23. If $f(x+1)=\frac{1}{4} f(x)$, which of the following equations could define the function $f$ ?\\
+A) $f(x)=\frac{1}{4}\left(\frac{1}{8}\right)^{x}$\\
+B) $f(x)=8\left(\frac{1}{4}\right)^{x}$\\
+C) $f(x)=8(4)^{x}$\\
+D) $f(x)=\frac{1}{4}(8)^{x}$
+
+24. The function $f$ is defined by $f(x)=\frac{x+18}{x-6}$. For what value of $x$ does $f(x)=-1$ ?
+
+25. Function $g$ is defined by $g(x)=\sqrt{3 x}$. If $g(a)=6$, what is the value of $a$ ?\\
+A) 3\\
+B) 6\\
+C) 9\\
+D) 12
+
+$$
+f(x)=\sqrt{x-2}
+$$
+
+26. The function $f$ is defined by the given equation. Which of the following is equal to $f(18)-f(11)$ ?\\
+A) $f(3)$\\
+B) $f(5)$\\
+C) $f(6)$\\
+D) $f(7)$
+
+27. \section{The function $f$ is defined by $f(x)=45 x+30$. What is the value of $f(x)$ where $x=2$ ?}
+A) 77\\
+B) 90\\
+C) 120\\
+D) 150
+
+28. \section{For which of the following functions is it true that $f(-3)=f(3)$ ?}
+A) $f(x)=\frac{2}{x}$\\
+B) $f(x)=\frac{x^{3}}{3}$\\
+C) $f(x)=3 x^{2}+1$\\
+D) $f(x)=x+2$
+
+29. If $f(x)=\frac{16+x^{2}}{2 x}$ for all $x \neq 0$, what is the value of $f(-4)$ ?\\
+A) -8\\
+B) -4\\
+C) 4\\
+D) 8
+
+30. Let the function $g$ be defined by $g(x)=\sqrt{3 x}$. If $g(a)=6$, what is the value of $a$ ?\\
+A) 3\\
+B) 6\\
+C) 9\\
+D) 12\\
+$f(x)=2 x-4$. If $f(x)=8$ then $x=$
+
+31. \section{$f(x)=2 x^{3}-3 x^{2}+5, f(4)=$}
+A. 81\\
+B. 82\\
+C. 83\\
+D. 84\\
+E. 85
+
+32. If $f(x)$ is a linear function such that $f(2)=5$ and $f(4)$ $=13, f(x)=$\\
+A. $f(x)=3 x-4$\\
+B. $f(x)=4 x-3$\\
+C. $f(x)=4 x+3$\\
+D. $f(x)=\frac{1}{4} x+\frac{9}{2}$\\
+E. $f(x)=\frac{1}{4} x-\frac{9}{2}$
+
+$$
+p(x)=x^{2}+2 x-b
+$$
+
+33. For the function $p$ defined above, $b$ is a constant and $p(2)=5$. What is the value of $p(-3)$ ?\\
+A) -18\\
+B) 0\\
+C) 5\\
+D) 12
+
+\begin{enumerate}
+  \item What is the value of $f(4)$ ?
+  \item What is the value of $g(-31)$ ?
+  \item What is the value of $f(-10)$ ?
+  \item What is the value of $h(-19)$ ?
+  \item What is the value of $f(3 x)$ ?
+  \item What is the value of $g(x-3)$ ?
+  \item For what value of $x$ does $h(x)=-5$ ?
+  \item For what value of $x$ does $g(x)=31$ ?
+  \item For what value of $x$ does $f(x)=43$ ?
+  \item For what value of $x$ does $g(x)=-11$ ?
+  \item What is the value of $g(h(-11))$ ?
+  \item What is the value of $f(h(2 x))$ ?
+  \item What is the value of $f(h(-4)$ ?
+  \item For what value of $x$ does $g(h(x))=18$ ?
+  \item What is the value of $g(f(3 x))$ ?
+\end{enumerate}
+
+For questions 1-15, use the functions below.
+
+$$
+\begin{gathered}
+f(x)=2 x^{2}-7 \\
+g(x)=-3 x+10 \\
+h(x)=x-3
+\end{gathered}
+$$
+
+\begin{enumerate}
+  \setcounter{enumi}{10}
+  \item What is the value of $g(h(-11))$ ?
+  \item What is the value of $f(h(2 x))$ ?
+  \item What is the value of $f(h(-4)$ ?
+  \item For what value of $x$ does $g(h(x))=18$ ?
+  \item What is the value of $g(f(3 x))$ ?
+\end{enumerate}
+
+$$
+\begin{aligned}
+& g(x)=2 x-1 \\
+& h(x)=1-g(x)
+\end{aligned}
+$$
+
+The functions $g$ and $h$ are defined above. What is the value of $h(0)$ ?\\
+A) -2\\
+B) 0\\
+C) 1\\
+D) 2
+
+If $f(x)=x-1$ and $g(x)=5 x+2$, then $f(g(2))$\\
+11\\
+7\\
+2\\
+13
+
+Find $g(f(5))$ when $f(x)=x+3$ and $g(x)=x / 2$.\\
+16\\
+8\\
+4\\
+12
+
+Given: $f(x)=2 x-1, g(x)=3 x$. Find $f(g(-3))$.\\
+11\\
+-17\\
+21\\
+$-19$
+
+\begin{enumerate}
+  \item Evaluate $g f(2)$ when $f(x)=3 x+5$ and $g(x)=2 x-1$\\
+14\\
+33\\
+3\\
+21
+\end{enumerate}
+
+Given: $f(x)=-2^{2}-5 x$ and $h(x)=3 x+2$. Find $f(h(x))$.\\
+$15 x-18$\\
+$-20 x-12$\\
+$-15 x-14$\\
+$12 x+4$
+
+Given: $g(x)=3 x, h(x)=x^{2}+1$. Find $h(g(-4))$.\\
+145\\
+126\\
+141\\
+154
+
+Given: $g(x)=3|x-4|+6$ and $h(x)=-x^{3}$. Find $h(g(4))$.\\
+212\\
+201\\
+226\\
+$-216$
+
+\begin{displayquote}
+
+\begin{enumerate}
+  \setcounter{enumi}{1}
+  \item Evaluate $f g(-3)$ when $f(x)=5 x-2$ and $g(x)=x^{2}+1$\\
+290\\
+48\\
+-42\\
+-52
+\end{enumerate}
+\end{displayquote}
+
+\begin{enumerate}
+  \item Select all that apply.
+\end{enumerate}
+
+Which set of ordered pairs represent a function?\\
+$\{(-7,-10),(10,10),(-7,5),(-7,3)\}$\\
+$\{(4,-1),(7,-10),(4,-4),(7,1)\}$\\
+$\{(-6,-5),(-6,4),(-6,-6),(-6,1)\}$\\
+$\{(-9,4),(-5,-8),(-5,-2),(-9,-5)\}$\\
+3. Select all that apply.
+
+Which set of ordered pairs represent a function?\\
+$\{(1,-10),(8,-7),(8,7),(8,5)\}$\\
+$\{(3,10),(3,3),(3,-4),(3,2)\}$\\
+$\{(6,3),(2,6),(9,-9),(1,-8)\}$\\
+$\{(-6,9),(-6,2),(-6,0),(-6,-6)\}$\\
+5. Select all that apply.
+
+Which set of ordered pairs represent a function?\\
+$\{(9,5),(5,-5),(-6,-4),(-2,-7)\}$\\
+$\{(-6,6),(3,3),(6,6),(9,-2)\}$\\
+$\{(2,-6),(2,1),(2,6),(2,-3)\}$\\
+$\{(9,-7),(-3,5),(-3,0),(-3,-4)\}$\\
+7. Select all that apply.
+
+Which set of ordered pairs represent a function?\\
+$\{(8,0),(3,-5),(3,2),(3,6)\}$\\
+$\{(6,5),(-2,2),(-9,5),(-7,-1)\}$\\
+$\{(10,1),(9,10),(9,9),(10,-5)\}$\\
+$\{(-7,7),(-3,3),(-10,-9),(2,0)\}$
+
+The table in each problem below represents a relation. Determine if each relation is a function.\\
+Circle your answer.\\
+1.
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$\boldsymbol{x}$ & $\boldsymbol{y}$ \\
+\hline
+4 & 7 \\
+\hline
+4 & 8 \\
+\hline
+5 & 9 \\
+\hline
+\multicolumn{2}{|c|}{yes} \\
+\hline
+\end{tabular}
+\end{center}
+
+3.
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$\boldsymbol{x}$ & $\boldsymbol{y}$ \\
+\hline
+-1 & 0 \\
+\hline
+-1 & 3 \\
+\hline
+3 & -8 \\
+\hline
+\end{tabular}
+\end{center}
+
+yes\\
+no\\
+5.
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$\boldsymbol{x}$ & $\boldsymbol{y}$ \\
+\hline
+-3 & 12 \\
+\hline
+-1 & 8 \\
+\hline
+7 & 7 \\
+\hline
+11 & 13 \\
+\hline
+\end{tabular}
+\end{center}
+
+yes\\
+no\\
+7.
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$\boldsymbol{x}$ & $\boldsymbol{y}$ \\
+\hline
+-2 & 6 \\
+\hline
+2 & 6 \\
+\hline
+-2 & 1 \\
+\hline
+3 & 8 \\
+\hline
+\end{tabular}
+\end{center}
+
+yes\\
+no\\
+2.
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$\boldsymbol{x}$ & $\boldsymbol{y}$ \\
+\hline
+8 & 5 \\
+\hline
+9 & 3 \\
+\hline
+-2 & 5 \\
+\hline
+\end{tabular}
+\end{center}
+
+yes\\
+no\\
+4.
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$\boldsymbol{x}$ & $\boldsymbol{y}$ \\
+\hline
+-8 & 0 \\
+\hline
+6 & -9 \\
+\hline
+-8 & 1 \\
+\hline
+\end{tabular}
+\end{center}
+
+yes\\
+no\\
+6.
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$\boldsymbol{x}$ & $\boldsymbol{y}$ \\
+\hline
+1 & 9 \\
+\hline
+3 & 9 \\
+\hline
+5 & 9 \\
+\hline
+7 & 4 \\
+\hline
+\end{tabular}
+\end{center}
+
+yes\\
+no\\
+8.
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$\boldsymbol{x}$ & $\boldsymbol{y}$ \\
+\hline
+-5 & 5 \\
+\hline
+-1 & 0 \\
+\hline
+0 & 1 \\
+\hline
+4 & 5 \\
+\hline
+\end{tabular}
+\end{center}
+
+yes\\
+no
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$x$ & $y$ \\
+\hline
+0 & 0 \\
+\hline
+2 & 2 \\
+\hline
+8 & 4 \\
+\hline
+18 & 6 \\
+\hline
+\end{tabular}
+\end{center}
+
+Which graph best models the relationship between $x$ and $y$ in the given table?\\
+A)\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-095}\\
+B)\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-095(1)}\\
+C)\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-095(3)}\\
+D)\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-095(2)}
+
+For certain air temperatures, the table gives wind chill temperatures for two different wind speeds.
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\begin{tabular}{c}
+Air temperature \\
+$\left({ }^{\circ} \mathrm{F}\right)$ \\
+\end{tabular} & \begin{tabular}{c}
+Wind chill temperature at \\
+wind speed 20 mph \\
+\end{tabular} & \begin{tabular}{c}
+Wind chill temperature at \\
+wind speed 60 mph \\
+\end{tabular} \\
+\hline
+$33^{\circ} \mathrm{F}$ & $21^{\circ} \mathrm{F}$ & $15^{\circ} \mathrm{F}$ \\
+\hline
+$34^{\circ} \mathrm{F}$ & $23^{\circ} \mathrm{F}$ & $16^{\circ} \mathrm{F}$ \\
+\hline
+$35^{\circ} \mathrm{F}$ & $24^{\circ} \mathrm{F}$ & $17^{\circ} \mathrm{F}$ \\
+\hline
+\end{tabular}
+\end{center}
+
+According to the table what is the wind chill temperature, in degrees Fahrenheit ( ${ }^{\circ} \mathrm{F}$ ), when the air temperature is $33^{\circ} \mathrm{F}$ and the wind speed is 20 miles per hour (mph)? (Disregard the degree symbol when entering your answer)
+
+For certain air temperature, table gives wind chill temperatures for two different wind speeds.
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Air temperature & \begin{tabular}{c}
+Wind chill temperature \\
+at wind speed 15 mph \\
+\end{tabular} & \begin{tabular}{c}
+Wind chill temperature \\
+at wind speed 45 mph \\
+\end{tabular} \\
+\hline
+$26^{\circ} \mathrm{F}$ & $14^{\circ} \mathrm{F}$ & $7^{\circ} \mathrm{F}$ \\
+\hline
+$30^{\circ} \mathrm{F}$ & $19^{\circ} \mathrm{F}$ & $12^{\circ} \mathrm{F}$ \\
+\hline
+$34^{\circ} \mathrm{F}$ & $24^{\circ} \mathrm{F}$ & $18^{\circ} \mathrm{F}$ \\
+\hline
+\end{tabular}
+\end{center}
+
+According to the table, what is the wind chill temperature, in degrees Fahrenheit ( ${ }^{\circ} \mathrm{F}$ ), when the air temperature is $26^{\circ} \mathrm{F}$ and the wind speed is 15 miles per hour (mph)? (Disregard the degree symbol when entering your answer.)
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+$x$ & $t(x)$ & $p(x)$ \\
+\hline
+1 & -3 & 4 \\
+\hline
+2 & 0 & 3 \\
+\hline
+3 & 2 & -1 \\
+\hline
+4 & 9 & -7 \\
+\hline
+\end{tabular}
+\end{center}
+
+The table above shows some values for the functions $t$ and $p$. For what value of $x$ does $t(x)+p(x)=2$ ?\\
+A) 1\\
+B) 2\\
+C) 3\\
+D) 4
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$x$ & $g(x)$ \\
+\hline
+2 & 11 \\
+\hline
+4 & 23 \\
+\hline
+6 & 35 \\
+\hline
+\end{tabular}
+\end{center}
+
+Some values of a linear function $g$ are shown above. Which of the following defines $g(x)$ ?\\
+A) $g(x)=4 x+3$\\
+B) $g(x)=6 x-1$\\
+C) $g(x)=4 x+7$\\
+D) $g(x)=5 x+5$
+
+Function $f$ is defined by $f(x)=x(x+2)(x+6)$. Which table of values represents $y=f(x-2)$ ?\\
+A)
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$x$ & $y$ \\
+\hline
+-8 & 0 \\
+\hline
+-4 & 0 \\
+\hline
+-2 & 0 \\
+\hline
+\end{tabular}
+\end{center}
+
+B)
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$x$ & $y$ \\
+\hline
+-4 & 0 \\
+\hline
+0 & 0 \\
+\hline
+2 & 0 \\
+\hline
+\end{tabular}
+\end{center}
+
+C)
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$x$ & $y$ \\
+\hline
+-2 & 0 \\
+\hline
+0 & 0 \\
+\hline
+4 & 0 \\
+\hline
+\end{tabular}
+\end{center}
+
+D)
+
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+$x$ & $y$ \\
+\hline
+2 & 0 \\
+\hline
+4 & 0 \\
+\hline
+8 & 0 \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+$x$ & $f(x)$ & $g(x)$ \\
+\hline
+-2 & 3 & 4 \\
+\hline
+-1 & 5 & 2 \\
+\hline
+0 & -2 & -3 \\
+\hline
+1 & 3 & 5 \\
+\hline
+2 & 6 & 7 \\
+\hline
+3 & 7 & 1 \\
+\hline
+\end{tabular}
+\end{center}
+
+For the functions $f$ and $g$, the table gives six values of $x$ and their corresponding values of $f(x)$ and $g(x)$. If $g(c)=5$, where $c$ is a constant, what is the value of $f(c)$ ?\\
+A) -2\\
+B) 3\\
+C) 5\\
+D) 6
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$x$ & $f(x)$ \\
+\hline
+-4 & 3 \\
+\hline
+-2 & 5 \\
+\hline
+0 & 2 \\
+\hline
+2 & 16 \\
+\hline
+3 & 4 \\
+\hline
+4 & 8 \\
+\hline
+\end{tabular}
+\end{center}
+
+For the function $f$, the table shows several values of $x$ and their corresponding values of $f(x)$. Function $g$ is defined by $g(x)=2 f(x)$. What is the value of $k$ if $g(k)=8$ ?\\
+A) 2\\
+B) 3\\
+C) 4\\
+D) 8
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$x$ & $y$ \\
+\hline
+0 & 20 \\
+\hline
+1 & 21 \\
+\hline
+3 & 29 \\
+\hline
+\end{tabular}
+\end{center}
+
+The table above displays several points on the graph of the function $f$ in the $x y$-plane. Which of the following could be $f(x)$ ?\\
+A) $f(x)=20 x$\\
+B) $f(x)=x+20$\\
+C) $f(x)=x-20$\\
+D) $f(x)=x^{2}+20$
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$x$ & $f(x)$ \\
+\hline
+-4 & 3 \\
+\hline
+-2 & 5 \\
+\hline
+0 & 2 \\
+\hline
+2 & 16 \\
+\hline
+3 & 4 \\
+\hline
+4 & 8 \\
+\hline
+\end{tabular}
+\end{center}
+
+The table above gives some values for the function $f$. If $g(x)=2 f(x)$, what is the value of $k$ if $g(k)=8$ ?\\
+A) 2\\
+B) 3\\
+C) 4\\
+D) 8
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+$x$ & $f(x)$ & $g(x)$ \\
+\hline
+-2 & 3 & 4 \\
+\hline
+-1 & 5 & 2 \\
+\hline
+0 & -2 & -3 \\
+\hline
+1 & 3 & 5 \\
+\hline
+2 & 6 & 7 \\
+\hline
+3 & 7 & 1 \\
+\hline
+\end{tabular}
+\end{center}
+
+The functions $f$ and $g$ are defined for the six values of $x$ shown in the table above.
+
+\section{7}
+What is the value of $f(g(-1))$ ?\\
+A) -2\\
+B) 3\\
+C) 5\\
+D) 6
+
+\section{8}
+If $g(c)=5$, what is the value of $f(c)$ ?\\
+A) -2\\
+B) 3\\
+C) 5\\
+D) 6
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$x$ & $f(x)$ \\
+\hline
+0 & -4 \\
+\hline
+1 & -8 \\
+\hline
+2 & 3 \\
+\hline
+3 & 6 \\
+\hline
+4 & 7 \\
+\hline
+5 & 2 \\
+\hline
+6 & 4 \\
+\hline
+7 & 5 \\
+\hline
+\end{tabular}
+\end{center}
+
+Several values of the function $f$ are given in the table above. If the function $g$ is defined by $g(x)=f(2 x-1)$, what is the value of $g(3)$ ?\\
+A) 2\\
+B) 6\\
+C) 5\\
+D) 7
+
+$$
+h(x)=x^{2}-3
+$$
+
+Which table gives three values of $x$ and their corresponding values of $h(x)$ for the given function $h$ ?\\
+A)
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+$x$ & 1 & 2 & 3 \\
+\hline
+$h(x)$ & 4 & 5 & 6 \\
+\hline
+\end{tabular}
+\end{center}
+
+B)
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+$x$ & 1 & 2 & 3 \\
+\hline
+$h(x)$ & -2 & 1 & 6 \\
+\hline
+\end{tabular}
+\end{center}
+
+C)
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+$x$ & 1 & 2 & 3 \\
+\hline
+$h(x)$ & -1 & 1 & 3 \\
+\hline
+\end{tabular}
+\end{center}
+
+D)
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+$x$ & 1 & 2 & 3 \\
+\hline
+$h(x)$ & -2 & 1 & 3 \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$x$ & $h(x)$ \\
+\hline
+0 & 17 \\
+\hline
+1 & 18 \\
+\hline
+2 & 20 \\
+\hline
+\end{tabular}
+\end{center}
+
+For the function $h$, the table gives three values of $x$ and their corresponding values of $h(x)$. Which equation could define $h$ ?\\
+(A) $h(x)=2^{x}+16$\\
+(B) $h(x)=2^{x}+15$\\
+(c) $h(x)=2^{x}+2$\\
+(D) $h(x)=2^{x}$
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$x$ & $y$ \\
+\hline
+0 & 95 \\
+\hline
+1 & 105 \\
+\hline
+2 & 115 \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{displayquote}
+For a linear relationship between $x$ and $y$, the table gives three values of $x$ and their corresponding values of $y$. Which equation represents this relationship?\\
+(A) $y=10 x+95$\\
+(B) $y=x+105$\\
+(C) $y=x+10$\\
+(D) $y=10 x$
+\end{displayquote}
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$x$ & $f(x)$ \\
+\hline
+1 & 5 \\
+\hline
+3 & 13 \\
+\hline
+5 & 21 \\
+\hline
+\end{tabular}
+\end{center}
+
+Some values of the linear function $f$ are shown in the table above. Which of the following defines $f$ ?\\
+A) $f(x)=2 x+3$\\
+B) $f(x)=3 x+2$\\
+C) $f(x)=4 x+1$\\
+D) $f(x)=5 x$
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+$x$ & 1 & 2 & 3 & 4 & 5 \\
+\hline
+$f(x)$ & 5 & 15 & 25 & 35 & 45 \\
+\hline
+\end{tabular}
+\end{center}
+
+Which of the following functions expresses a relationship that is satisfied by all pairs $(x, f(x))$ in the table above?\\
+A) $f(x)=5 x$\\
+B) $f(x)=9 x$\\
+C) $f(x)=10 x-5$\\
+D) $f(x)=10 x+5$
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+$x$ & $f(x)$ & $g(x)$ \\
+\hline
+$a$ & $h$ & $c$ \\
+\hline
+$b$ & $a$ & $b$ \\
+\hline
+$c$ & $c$ & $h$ \\
+\hline
+$m$ & $k$ & $k$ \\
+\hline
+$p$ & $b$ & $a$ \\
+\hline
+\end{tabular}
+\end{center}
+
+The functions $f$ and $g$ are defined in the table above, where $a, b, c, m, p, h$, and $k$ are different\\
+constants. For what value of $x$ does $f(x)=g(x)$ ?\\
+A) $a$\\
+B) $b$\\
+C) $c$\\
+D) $m$
+
+\begin{center}
+\begin{tabular}{|r|r|r|}
+\hline
+$x$ & $w(x)$ & $t(x)$ \\
+\hline
+1 & -1 & -3 \\
+\hline
+2 & 3 & -1 \\
+\hline
+3 & 4 & 1 \\
+\hline
+4 & 3 & 3 \\
+\hline
+5 & -1 & 5 \\
+\hline
+\end{tabular}
+\end{center}
+
+The table above shows some values of the functions $w$ and $t$. For which value of $x$ is $w(x)+t(x)=x$ ?\\
+A) 1\\
+B) 2\\
+C) 3\\
+D) 4\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-114}
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+$x$ & 1 & 2 & 3 & 4 & 5 \\
+\hline
+$y$ & $\frac{11}{4}$ & $\frac{25}{4}$ & $\frac{39}{4}$ & $\frac{53}{4}$ & $\frac{67}{4}$ \\
+\hline
+\end{tabular}
+\end{center}
+
+Which of the following equations relates $y$ to $x$ for the values in the table above?\\
+A) $y=\frac{1}{2} \cdot\left(\frac{5}{2}\right)^{x}$\\
+B) $y=2 \cdot\left(\frac{3}{4}\right)^{x}$\\
+C) $y=\frac{3}{4} x+2$\\
+D) $y=\frac{7}{2} x-\frac{3}{4}$
+
+\begin{center}
+\begin{tabular}{|r|r|}
+\hline
+$x$ & $f(x)$ \\
+\hline
+0 & -2 \\
+\hline
+2 & 4 \\
+\hline
+6 & 16 \\
+\hline
+\end{tabular}
+\end{center}
+
+Some values of the linear function $f$ are shown in the table above. What is the value of $f(3)$ ?\\
+A) 6\\
+B) 7\\
+C) 8\\
+D) 9\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-116}
+
+\begin{center}
+\begin{tabular}{|r|c|}
+\hline
+$x$ & $g(x)$ \\
+\hline
+-2 & 1 \\
+\hline
+-1 & 2 \\
+\hline
+0 & 3 \\
+\hline
+1 & 4 \\
+\hline
+2 & 5 \\
+\hline
+3 & 6 \\
+\hline
+4 & 7 \\
+\hline
+\end{tabular}
+\end{center}
+
+The complete graph of the function $f$ and a table of values for the function $g$ are shown above. The maximum value of $f$ is $k$. What is the value of $g(k)$ ?\\
+A) 7\\
+B) 6\\
+C) 3\\
+D) 0
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+$x$ & $f(x)$ & $g(x)$ \\
+\hline
+1 & 4 & 0 \\
+\hline
+4 & 6 & 12 \\
+\hline
+6 & 4 & 7 \\
+\hline
+9 & 1 & 10 \\
+\hline
+12 & 9 & 8 \\
+\hline
+\end{tabular}
+\end{center}
+
+The table above shows several values of function $f$ and function $g$. According to the table, if $f(4)=a$, what is $g(a)$ ?
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$x$ & $y$ \\
+\hline
+1 & 3 \\
+\hline
+2 & 1 \\
+\hline
+3 & -1 \\
+\hline
+4 & -3 \\
+\hline
+5 & -5 \\
+\hline
+\end{tabular}
+\end{center}
+
+The relationship between x and y is linear, and some values for the relationship are shown in the table above. When graphed in the xy-plane, the line that represents the relationship between $x$ and $y$ passes through the point $(-1, a)$. What is the value of $a$ ?\\
+A) -1\\
+B) 5\\
+C) 7\\
+D) 9
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+s & t \\
+\hline
+-5 & 0 \\
+\hline
+0 & 5 \\
+\hline
+\end{tabular}
+\end{center}
+
+A linear relationship exists between $s$ and $t$, and the table above shows two pairs of values for them. Which of the following equations could be used to describe the relationshop between $s$ and $t$ ?\\
+A) $t=-s-5$\\
+B) $t=-s+5$\\
+C) $t=s-5$\\
+D) $t=s+5$
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+Pages & Total paid \\
+\hline
+9 & $\$ 308$ \\
+\hline
+12 & $\$ 341$ \\
+\hline
+15 & $\$ 374$ \\
+\hline
+18 & $\$ 407$ \\
+\hline
+\end{tabular}
+\end{center}
+
+The table above shows the total amount of money m , in dollars, a comic book artist is paid for completing a project consisting of p pages. The formula $m=r p+k$ shows the relationship between the variables $m$ and $p$, where r is the amount of money, in dollars, paid per page and $k$ is the one-time fee the artist is paid for the project. What is the value of $r$ ?
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$x$ & $y$ \\
+\hline
+1 & 2 \\
+\hline
+2 & 5 \\
+\hline
+3 & 8 \\
+\hline
+4 & 11 \\
+\hline
+\end{tabular}
+\end{center}
+
+Each row of the table above gives a pair of values for the variables $x$ and $y$. There is a linear relationship between $x$ and $y$. Which of the following graphs could represent the relationship?\\
+A)\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-121}\\
+B)\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-121(1)}\\
+C)\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-121(3)}\\
+D)\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-121(2)}
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+$x$ & $f(x)$ \\
+\hline
+8 & 12 \\
+\hline
+12 & 17 \\
+\hline
+\end{tabular}
+\end{center}
+
+The table above shows two pairs of values for the linear function $f$. The function can be written in the form $f(x)=a x+b$, where $a$ and $b$ are constants. What is the value of $a+b$ ?
+
+The cost of renting a piece of constructing equipment for up to 5 days is $\$ 350$ for the first day and $\$ 175$ for each additional day. Which of the following equations gives the cost $y$, in dollars, of renting the equipment for $x$ days, where $x$ is a positive integer and $x \leq 5$ ?\\
+A) $y=175 x+175$\\
+B) $y=350 x-175$\\
+C) $y=175 x+350$\\
+D) $y=350 x+175$
+
+A proposal for a construction project was included on a city election ballot. A TV news report stated that 4 times as many people voted of the proposal as people who voted against it. An internet article reported that 10,500 more people voted in favor of the proposal than voted against it. Based on these data, how many people voted against the proposal?
+
+The cost of operating a Frisbee company in the first year is $\$ 10,000$ plus $\$ 2$ for each Frisbee. Assuming the company sells every Frisbee it makes in the first year for $\$ 7$, how many Frisbees must the company sell to break even?\\
+A. 1,000\\
+B. 1,500\\
+C. 2,000\\
+D. 2,500\\
+E. 3,000
+
+A cruise ship has a total of 480 rooms, and on a certain morning, one quarter of the rooms are cleaned. There are 15 housekeepers on duty on the cruise ship that morning, and each housekeeper cleans the same number of rooms, $r$. Which of the following equations represents the information given in terms of $r$ ?\\
+A) $4(15 r)=480$\\
+B) $\frac{1}{4}(15 r)=480$\\
+C) $4(r+15)=480$\\
+D) $\frac{1}{4}(r+15)=480$
+
+Baby Kana's parents measure her height every month.\\
+$H(t)$ models Kana's height (in centimeters) when she was $t$ months old.
+
+What does the statement $H(160)=150$ mean?
+
+\section{Choose 1 answer:}
+(A) Kana had the same height at 150 months old and at 160 months old.\\
+(B) When Kana was 160 months old, her height was equal to 150 centimeters.\\
+(c) When Kana was 150 months old, her height was equal to 160 centimeters.
+
+\section{Aiden is a taxi driver.}
+$M(n)$ models Aiden's fee (in dollars) for his $n^{\text {th }}$ drive on a certain day.
+
+What does the statement $M(8)<M(4)$ mean?
+
+Choose 1 answer:\\
+(A) Aiden earned $\$ 8$ for a drive that was earlier than a drive for which he earned $\$ 4$.
+
+B Aiden earned $\$ 8$ for fewer drives than the number of drives for which he earned $\$ 4$.\\
+(C) Aiden earned less money for his $8^{\text {th }}$ than he earned for his $4^{\text {th }}$ drive.
+
+Alek went for a walk.\\
+$D(t)$ models the distance Alek walked (in kilometers) after $t$ hours.
+
+What does the statement $D(0.5)<D(1)-D(0.5)$ mean?
+
+Choose 1 answer:\\
+(A) The distance Alek has walked after walking for an hour is greater than the distance he has walked after half an hour.
+
+B The distance Alek walked during the first half hour is shorter than the distance he walked during the following half hour.\\
+(C) The time it took Alek to walk the first half kilometer is shorter than the time it took him to walk the following half kilometer.\\
+"Princess Tower" in Dubai is considered the world's tallest residential building, towering to 101 floors!\\
+$T(n)$ models the number of tenants living on floor $n$ of the tower.
+
+What does the statement $T(60)>T(10)+T(30)$ mean?
+
+Choose 1 answer:\\
+(A) There are more tenants on floor 60 than there are tenants on floors 10 and 30 combined.\\
+(B) The number of floors with 60 tenants is greater than the number of floors with either 10 or 30 tenants.\\
+(C) The height of floor 60 is greater than the sum of the heights of floors 10 and 30 .
+
+In one week in 2017, a technician earned a total of \$716 by working at her regular job and at a second job doing part-time work. The equation $20 \mathrm{~h}+14 \mathrm{c}=716$ represents this situation, where $h$ is the number of hours worked at her regular job and $c$ is the number of hours worked at her second job. Which of the following is the best interpretation of 20 in this context?
+
+A The amount, in dollars, the technician earned for each hour she worked at her regular job\\
+(B) The amount, in dollars, the technician earned for each hour she worked at her second job\\
+(c) The number of hours the technician worked in one week at her regular job\\
+(D) The number of hours the technician worked in one week at her second job
+
+A computer repair specialist charges $\$ 160$ for the first two hours of repair plus an hourly fee for each additional hour. The total cost for 4 hours of repair is $\$ 240$. Which function f gives the total cost, in dollars, for $x$ hours of repair, where $x \geq 2$ ?\\
+A) $f(x)=40 x+80$\\
+B) $f(x)=40 x+160$\\
+C) $f(x)=60 x$\\
+D) $f(x)=60 x+160$
+
+A baseball coach charges each athlete $\$ 150$ for the first month and \$95 for each additional month.\\
+Which of the following functions correctly represents the total revenue $R(m)$, in dollars, for $m$ months and $n$ athletes, where $m$ and $n$ are positive integers?\\
+A) $R(m)=95 m n+55$\\
+B) $R(m)=95 m n+150$\\
+C) $R(m)=95 m n+55 n$\\
+D) $R(m)=95 m n+150 n$
+
+\section{Line $r$ is defined by the equation}
+$$
+4 x-5 y=8
+$$
+
+Line $s$ is parallel to line $r$ in the $x y$-plane. What is the slope of line $s$ ?\\
+A) $\frac{5}{4}$\\
+B) $\frac{4}{5}$\\
+C) -4\\
+D) -5
+
+In the $x y$-plane, line $\ell$ passes through the point $(0,0)$ and is parallel to the line represented by the equation $y=6 x+3$. If line $\ell$ also passes through the point $(3, d)$, what is the value of $d$ ?
+
+\section{Line $r$ is defined by the equation}
+$$
+4 x-7 y=3
+$$
+
+Line $s$ is parallel to line $r$ in the $x y$-plane. What is the slope of line $s$ ?\\
+A) $\frac{7}{4}$\\
+B) $\frac{4}{7}$\\
+C) -4\\
+D) -7
+
+Line $k$ is defined by $y=6 x+5$. Line $j$ is parallel to line $k$ in the $x y$-plane and passes through the point $(0,11)$. Which equation defines line $j$ ?\\
+A) $y=6 x+11$\\
+B) $y=11 x+5$\\
+C) $y=-6 x+11$\\
+D) $y=-11 x+5$
+
+Line $k$ is defined by $y=4 x+1$. Line $j$ is parallel to line $k$ in the $x y$-plane and passes through the point $(0,5)$. Which equation defines line $j$ ?\\
+A) $y=-5 x+1$\\
+B) $y=5 x+1$\\
+C) $y=-4 x+5$\\
+D) $y=4 x+5$
+
+In the $x y$-plane, line $s$ passes through the point $(0,0)$ and is parallel to the line represented by the equation $y=25 x+5$. If line $s$ also passes through the point $(2, d)$, what is the value of $d$ ?\\
+A) 5\\
+C) 50\\
+B) 25\\
+D) 55
+
+Line $r$ is defined by equation $4 x-3 y=8$. Line $s$ is parallel to line $r$ in the xy-plane. What is the slope of line $s$ ?\\
+A) -4\\
+C) $\frac{3}{4}$\\
+B) -3\\
+D) $\frac{4}{3}$
+
+Line $p$ is defined by $y=6 x-8$. Line $s$ is parallel to line $p$ in the $x y$-plane. Whats is the slope of line $s$ ?
+
+Line $k$ is defined by $y=7 x+2$. Line $j$ is parallel to line $k$ in the $x y$-plane and passes through the point $(0,3)$. Which equation defines line $j$ ?\\
+A) $y=7 x+3$\\
+C) $y=-7 x+3$\\
+B) $y=-3 x+3$\\
+D) $y=3 x+3$
+
+\section{Line $k$ is defined by $y=6 x+\frac{1}{9}$. Line $j$ is perpendicular to line $k$ in the xy-plane. What is the slope of line $j ?$}
+A) -9\\
+B) $-\frac{1}{6}$\\
+C) $\frac{1}{9}$\\
+D) 6\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-144}
+
+Line $k$ is shown in the $x y$-plane. Line $j$ (not shown) is perpendicular to line $k$ and passes through the point $(-12,-19)$. Which equation defines line $j$ ?\\
+A) $y=\frac{2}{3} x-11$\\
+B) $y=\frac{2}{3} x-27$\\
+C) $y=\frac{3}{2} x-11$\\
+D) $y=\frac{3}{2} x-27$\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-145}
+
+Line $k$ is shown in the $x y$-plane. Line $j$ (not shown) is perpendicular to line $k$. What is the slope of line $j$ ?\\
+A) $-\frac{6}{5}$\\
+B) $\frac{6}{5}$\\
+C) 6\\
+D) -5
+
+Lines $p$ and $q$ are perpendicular. Each line has a $y$ intercept of -4 . If line $p$ crosses through the $x$-axis at $x=3$, at which value of $x$ does line $q$ cross the $x$-axis?\\
+A. $\frac{4}{3}$\\
+B. -4\\
+C. $-\frac{3}{4}$\\
+D. $-\frac{16}{3}$\\
+E. $\frac{16}{3}$
+
+In the $x y$-coordinate plane, line $k$ passes through the point $(2,4)$ and is perpendicular to the graph of the line whose equation is $y=\frac{2}{3} x-6$. Which of the following is the equation for line $k$ ?\\
+A. $y=\frac{3}{2} x-6$.\\
+B. $y=-\frac{3}{2} x+7$.\\
+C. $y=\frac{2}{3} x+7$.\\
+D. $y=-\frac{2}{3} x+7$.\\
+E. $y=-\frac{3}{2} x-6$.
+
+Example 3: Points $(4,10)$ and $(1,31)$ are located on line $q$. If line $p$ is perpendicular to line $q$, which of the following equations could be the equation of line $p$ ?\\
+A) $y=7 x+28$\\
+B) $y=\frac{1}{7} x-\frac{5}{2}$\\
+C) $y=-7 x+10$\\
+D) $y=-\frac{1}{7} x+2$
+
+Example 4: In the $x y$-plane, line $d$ is parallel to line $f$. Line $d$ has an equation of $y=\frac{3}{5} x+\frac{9}{2}$. Which of the following could be the equation of line $f$ ?\\
+A) $3 x+5 y=20$\\
+B) $10 x-6 y=3$\\
+C) $9 x-15 y=40$\\
+D) $-5 x+3 y=18$
+
+In the $x y$-plane below, line $a$ is parallel to line $b$ (not shown). Which of the following could be the equation of line $b$ ?\\
+A) $y=x-3$\\
+B) $y=\frac{1}{2} x-2$\\
+C) $y=2 x+4$\\
+D) $y=-2 x-5$\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-150}
+
+Lines $l$ and $k$ are parallel in the $x y$-plane. The equation for line $l$ is $x+4 y=-5$, and line $k$ passes through the point $(2,8)$. What is the $x$-intercept for line $k$ ?
+
+In the $x y$-plane, lines $l$ and $k$ are parallel. Line $l$ passes through the points $(-1,-7)$ and $(1,3)$. If the point $(a, b)$ lies on line $k$, which of the following is another point on line $k$ ?\\
+A) $(a-1, b-5)$\\
+B) $(a-1, b+5)$\\
+C) $(a+5, b+1)$\\
+D) $(a+5, b-1)$
+
+In the given pair of equations below, $a$ and $b$ are constants. The graph of this pair of equations in the $x y$-plane is a pair of perpendicular lines. Which of the following pairs of equations represents a pair of parallel lines?
+
+$$
+\begin{gathered}
+7 x+11 y=100 \\
+a x+b y=10 b
+\end{gathered}
+$$
+
+A) $7 x-11 y=10$
+
+$$
+a x+b y=10 b
+$$
+
+B) $7 x+33 y=100$
+
+$$
+2 a x-3 b y=50 b
+$$
+
+C) $33 x-7 y=100$
+
+$$
+3 a x+b y=b
+$$
+
+D) $11 x+7 y=100$
+
+$$
+a x+b y=10 b
+$$
+
+In the standard $x y$-plane, what is the slope of a line perpendicular to $6 x=4 y+10$ ?\\
+A) -1\\
+B) $\frac{2}{3}$\\
+C) $\frac{3}{2}$\\
+D) $-\frac{2}{3}$
+
+Line $k$ is defined by $3 x+5 y=24$. Line $a$ is perpendicular to line $k$ in the $x y$-plane. What is the slope of line $a$ ?
+
+The graph below shows the function $f(x)$. $f(x)$ and $g(x)$ (not shown) are perpendicular lines. Which of the following could define $g(x)$ ?\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-156}\\
+A) $g(x)=-2 x-2$\\
+B) $g(x)=-\frac{1}{2} x+4$\\
+C) $g(x)=\frac{1}{2} x+2$\\
+D) $g(x)=2 x-3$
+
+Line $m$ is defined by $y=-\frac{3}{5} x+7$. Line $k$ is perpendicular to line $m$ in the $x y$-plane and passes through the point $(6,13)$. Which equation defines line $k$ ?\\
+A) $y=\frac{5}{3} x+\frac{1}{7}$\\
+B) $y=\frac{5}{3} x+3$\\
+C) $y=\frac{5}{3} x+7$\\
+D) $y=\frac{5}{3} x+\frac{47}{3}$
+
+Lines $t$ and $v$ are perpendicular in the $x y$-plane. The equation of line $t$ is\\
+$4 x+3 y=10$, and line $v$ passes through the point $(-3,3)$. What is the $y$-intercept of line $v$ ?
+
+$$
+4 x-3 y=10
+$$
+
+In the $x y$-plane, the graph of which of the following equations is perpendicular to the graph of the equation above?\\
+A) $-4 y+3 x=3$\\
+B) $6 x+8 y=-7$\\
+C) $2 x-3 y=10$\\
+D) $-4 x+3 y=10$
+
+The graph of the line $l$ in the $x y$-plane passes through the point $(2,6)$ and is perpendicular to the line $m$ with the equation $2 x+3 y=6$. The line $l$ crosses the $y$-axis at the point $(0, b)$. What is the value of $b$ ?
+
+In the $x y$-plane, line $m$ is perpendicular to line $l$. Line $l$ has an equation of $y=\frac{4}{3} x+4$. Which of the following is the equation of line $m$ ?\\
+A) $4 x+3 y+3=0$\\
+B) $4 x-3 y+3=0$\\
+C) $3 x-4 y+12=0$\\
+D) $3 x+4 y+12=0$
+
+In the given pair of equations below, $a$ and $b$ are constants. The graph of this pair of equations in the $x y$-plane is a pair of perpendicular lines. Which of the following pairs of equations also represents a pair of perpendicular lines?
+
+$$
+\begin{aligned}
+& 3 x+8 y=10 \\
+& a x+b y=10
+\end{aligned}
+$$
+
+A) $3 x-8 y=10$
+
+$$
+a x+b y=10
+$$
+
+B) $6 x-16 y=10$
+
+$$
+2 a x+2 b y=5
+$$
+
+C) $3 x+16 y=10$
+
+$$
+2 a x+b y=10
+$$
+
+D) $3 x+16 y=10$
+
+$$
+a x+2 b y=10
+$$
+
+What is the slope of a line that is perpendicular to the graph of $y=-\frac{1}{4} x+5$ in the $x y$-plane?\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-164}
+
+The graph of line $l$ is shown in the $x y$-plane. Which of the following is an equation of a line that is parallel to line $l$ ?\\
+A) $y=-\frac{2}{3} x+2$\\
+B) $y=\frac{2}{3} x+10$\\
+C) $y=\frac{3}{2} x-4$\\
+D) $y=3 x-1$
+
+Line $k$ passes through the point $(1,5)$ in the $x y$-plane. If line $k$ is perpendicular to the line with equation $y=\frac{1}{2} x+3$, which equation defines line $k$ ?\\
+A) $y=-2 x+3$\\
+B) $y=-2 x+7$\\
+C) $y=-\frac{1}{2} x+\frac{11}{2}$\\
+D) $y=\frac{1}{2} x+\frac{9}{2}$\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-166}
+
+Line $r$ is shown in the $x y$-plane. Line $s$ (not shown) is parallel to line $r$ and passes through the point $(1,-1)$. Which of the following points lies on line $s$ ?\\
+A) $(-3,-3)$\\
+B) $(-2,-2)$\\
+C) $(0,-2)$\\
+D) $(4,0)$\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-167}
+
+In the $x y$-plane, the graph of the linear function $f$ is perpendicular to the graph of the linear function $g$ (not shown). If the graphs of $f$ and $g$ intersect at the point $\left(1, \frac{5}{2}\right)$, what is the value of $g(-1)$ ?
+
+Line $j$ is defined by $4 x+20 y=5$. Line $k$ is parallel to line $j$ in the $x y$-plane. What is the slope of line $k$ ?\\
+A) -5\\
+B) $-\frac{1}{5}$\\
+C) $\frac{1}{5}$\\
+D) 5
+
+In the $x y$-plane, line $p$ passes through the point $(1, n)$, where $n$ is a constant Line $q$ intersects line $p$ at the point $(0,0)$ and is perpendicular to line $p$. Which of the following points must lie on line $q$ ?\\
+A) $(-n,-1)$\\
+B) $(n,-1)$\\
+C) $(n, 1)$\\
+D) $(1,-n)$
+
+In the $x y$-plane, the line with equation $a x-b y=5$, where $a$ and $b$ are constants, is perpendicular to the line with equation $11 x-4 y=5$. Which of the following equations represents a line that is perpendicular to the line with equation $11 x+12 y=5$ ?\\
+A) $a x-3 b y=5$\\
+B) $a x+3 b y=5$\\
+C) $3 a x-b y=5$\\
+D) $3 a x+b y=5$
+
+Which of the following is an equation for the line passing through the point $(-4,1)$ that is parallel to $4 x-2 y=3$ ?\\
+A) $y=2 x-9$\\
+B) $y=2 x+9$\\
+C) $y=-2 x-9$\\
+D) $y=-2 x+9$
+
+Which of the following is an equation for the line passing through the point $(-4,1)$ that is perpendicular to $4 x-2 y=3$ ?\\
+A) $y=-\frac{1}{2} x-1$\\
+B) $y=-\frac{1}{2} x+1$\\
+C) $y=\frac{1}{2} x-1$\\
+D) $y=\frac{1}{2} x+1$
+
+Which of the following is a linear equation for the line that is parallel to $3 x+4 y=12$ through the point $(-2,-3)$ ?\\
+A) $y-3=-\frac{3}{4}(x-2)$\\
+B) $y+3=-\frac{4}{3}(x+2)$\\
+C) $y-3=-\frac{4}{3}(x-2)$\\
+D) $y+3=-\frac{3}{4}(x+2)$\\
+$6 x+11 y=40$\\
+$a x+b y=40$\\
+The given lines are perpendicular, where $a$ and $b$ are constants. Which of the following pair of lines are also perpendicular?\\
+A) $12 x+11 y=40$
+
+$$
+2 a x+b y=40
+$$
+
+B) $6 x+33 y=40$
+
+$$
+a x-3 b y=40
+$$
+
+C) $24 x+11 y=40$
+
+$$
+a x+4 b y=40
+$$
+
+D) $6 x+22 y=40$
+
+$$
+-2 a x+b y=40
+$$
+
+\begin{center}
+\includegraphics[max width=\textwidth]{2025_06_30_06c051c594cab72c5a17g-175}
+\end{center}
+
+Line $r$ is shown in the $x y$-plane. Line $t$ (not shown) is perpendicular to line $r$ and passes through the point $(5,8)$. What is the $y$ coordinate of the $y$-intercept of line $t$ ?\\
+A)\\
+B)\\
+C)\\
+D)
+
+In the $x y$-plane, line $m$ passes through the point $(0,0)$ and is parallel to the line represented by the equation $\mathrm{y}=25 \mathrm{x}+5$. If line m also passes through the point $(2, \mathrm{~d})$, what is the value of d ?\\
+(A) 5\\
+(B) 25\\
+(C) 50\\
+(D) 55\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-177}
+
+Line k is shown in the xy -plane. Line j (not shown) is perpendicular to line k . What is the slope of line j ?\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-178}
+
+Line $k$ is shown in the $x y$-plane. Line $j$ (not shown) is perpendicular to line $k$ and passes through the point $(7,15)$. What is the $y$-coordinate of the $y$-intercept of line $j$ ?\\
+\includegraphics[max width=\textwidth, center]{2025_06_30_06c051c594cab72c5a17g-179}
+
+Note: Figure not drawn to scale.
+
+In the figure shown, line $l$ intersects parallel lines $j$ and $k$. If $q=10 c-$ 11 and $r=15 c+41$, what is the value of $p$ ?
+
+A 6\\
+B 49\\
+(C) 115\\
+(D) 131
+
+Line $a$ is defined by $7 x+8 y=96$. Line $a$ is parallel to line $b$. An equation of line $b$ is $42 x=k y-96$, where $k$ is a constant. What is the $y$-intercept of line $b$ ?
+
+Lines $k$ and $l$ are perpendicular. If the point $(4, m)$ and $(9, m+3)$ lies on line $k$ and lines $k$ and $l$ intersect at $(9, m+3)$, which of the following can lie on line $l$ ?\\
+A) $(m-6,-4)$\\
+B) $(m+9,24)$\\
+C) $(21, m-17)$\\
+D) $(24, m+12)$
+
+Lines $c$ and $d$ are perpendicular. If the equation of line $c$ is $y=m x+b$ and the lines intersect at point $(7,6)$. Which point lies on line $b$ ?\\
+A) $(7+m, 7)$\\
+B) $(2 m, 8)$\\
+C) $(7+2 m, 4)$\\
+D) $(7-3 m, 3)$
+
+\begin{enumerate}
+  \item Write an equation that is parallel to the line $y=x-5$ through $(1,-2)$
+\end{enumerate}
+
+A $y=x+1$\\
+B $y=x-3$\\
+C $y=-3 x+1$\\
+D $y=3 x+1$\\
+2. Write an equation for a line parallel to the line $y=1 / 3 x-4$ through $(-3,2)$
+
+A $y=-5 / 3 x+3$\\
+B $y=2 / 3 x+3$\\
+C $y=-1 / 3 x+3$\\
+D $y=1 / 3 x+3$\\
+3. Write an equation for a line parallel to $y=5 / 4 x+4$ through $(-4,-3)$
+
+A $y=-5 / 4 x+2$\\
+B $y=2 x-5 / 4$\\
+C $y=3 / 4 x+2$\\
+D $y=5 / 4 x+2$\\
+4. Write an equation for a line parallel to $y=1 / 3 x-3$ through $(4,4)$
+
+A $y=8 / 3 x-1 / 3$\\
+B $y=-1 / 3 x+8 / 3$\\
+C $y=1 / 3 x+8 / 3$\\
+D. $y=8 / 3 x+1 / 3$\\
+5. Write an equation of a line parallel to $y=x+3$ through $(5,3)$
+
+A $y=2 x+1$\\
+B $y=x-2$\\
+C $y=-2 x+1$\\
+D $y=x+2$\\
+6. Write an equation of a line perpendicular to $y=7 x+1$ through $(-4,0)$
+
+A $y=2 / 7 x-4 / 7$\\
+B $y=-1 / 7 x-4 / 7$\\
+C $y=-4 / 7 x+2 / 7$\\
+D $y=1 / 7 x-4 / 7$
+
+
+\end{document}
