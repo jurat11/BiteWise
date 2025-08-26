@@ -27,10 +27,6 @@ USER botuser
 # Expose port (if needed for webhooks)
 EXPOSE 8000
 
-# Health check (simplified for Telegram bot)
-HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD python3 -c "print('Bot is healthy')" || exit 1
-
 # Start the bot
 CMD ["python3", "bot3.py"]
 
