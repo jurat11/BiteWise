@@ -28,16 +28,14 @@ import csv
 import tempfile
 
 # Configuration
-BOT_TOKEN = "7189930971:AAEZ4LUYS5lLTotI4ec2W1YmS1CI3CmVmNY"  # Replace with your actual bot token
-GEMINI_API_KEY = "AIzaSyCkeGBt9wgQ9R73CvmEsptK1660y89s-iY"  # Replace with your actual Gemini API key
-GOOGLE_CREDENTIALS_PATH = "./credentials/sturdy-lead-454406-n3-16c47cb3a35a.json"  # Replace with path to your Google Cloud credentials JSON file
-ADMIN_ID = 5080813917
-BOT_USERNAME = "@BiteWiseBot"  # Replace with your bot's username (without @)
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7189930971:AAEZ4LUYS5lLTotI4ec2W1YmS1CI3CmVmNY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyCkeGBt9wgQ9R73CvmEsptK1660y89s-iY")
+GOOGLE_CREDENTIALS_PATH = os.getenv("GOOGLE_CREDENTIALS_PATH", "./credentials/sturdy-lead-454406-n3-16c47cb3a35a.json")
+ADMIN_ID = int(os.getenv("ADMIN_ID", "5080813917"))
+BOT_USERNAME = os.getenv("BOT_USERNAME", "@BiteWiseBot")
 
 # Project Directory Setup
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-CREDENTIALS_DIR = os.path.join(PROJECT_DIR, "credentials")
-os.makedirs(CREDENTIALS_DIR, exist_ok=True)
 
 # Logging Setup
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -784,13 +782,24 @@ def t(key: str, lang: str, **kwargs) -> str:
 
 # Initialize Services
 try:
-    # Set Google Cloud credentials environment variable
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = GOOGLE_CREDENTIALS_PATH
-    db = firestore.Client()
+    # Try to initialize Firestore with credentials if available
+    if GOOGLE_CREDENTIALS_PATH and os.path.exists(GOOGLE_CREDENTIALS_PATH):
+        os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = GOOGLE_CREDENTIALS_PATH
+        db = firestore.Client()
+    else:
+        # For Railway deployment, try to use default credentials
+        try:
+            db = firestore.Client()
+        except Exception as e:
+            logger.error(f"Failed to initialize Firestore with default credentials: {e}")
+            # Create a mock database for testing
+            db = None
+            logger.warning("Running without database - some features will be limited")
 except Exception as e:
     logger.error(f"Failed to initialize Firestore: {e}")
-    os.environ["FIRESTORE_EMULATOR_HOST"] = "localhost:8080"
-    db = firestore.Client()
+    # For Railway deployment, continue without database
+    db = None
+    logger.warning("Running without database - some features will be limited")
 
 try:
     genai.configure(api_key=GEMINI_API_KEY)
@@ -800,6 +809,9 @@ except Exception as e:
     logger.error(f"Failed to initialize Gemini AI: {e}")
 
 def get_user_ref(user_id: int):
+    if db is None:
+        logger.warning("Database not available - cannot get user reference")
+        return None
     return db.collection('users').document(str(user_id))
 
 
@@ -985,7 +997,10 @@ def get_meal_type_keyboard(lang: str):
 # Helper Functions
 async def get_user_language(user_id: int) -> str:
     try:
-        doc = get_user_ref(user_id).get()
+        user_ref = get_user_ref(user_id)
+        if user_ref is None:
+            return 'en'  # Default to English if database not available
+        doc = user_ref.get()
         return doc.to_dict().get('language', 'en') if doc.exists else 'en'
     except Exception as e:
         logger.error(f"Language fetch failed for user {user_id}: {e}")
@@ -1484,7 +1499,11 @@ async def send_weight_update_prompt(user_id: int):
 async def cmd_start(message: types.Message, state: FSMContext):
     user_id = message.from_user.id
     user_ref = get_user_ref(user_id)
-    if user_ref.get().exists:
+    if user_ref is None:
+        # Database not available, treat as new user
+        await message.answer(t("intro", "en"), reply_markup=get_language_inline_keyboard())
+        await state.set_state(Registration.language)
+    elif user_ref.get().exists:
         lang = await get_user_language(user_id)
         await message.answer(t("already_registered", lang), reply_markup=get_main_menu_keyboard(lang))
     else:
@@ -1699,7 +1718,13 @@ async def process_activity_level_selection(callback: types.CallbackQuery, state:
 async def log_water(message: types.Message, state: FSMContext):
     user_id = message.from_user.id
     lang = await get_user_language(user_id)
-    get_user_ref(user_id).update({'last_active': datetime.now(pytz.utc)})
+    # Update last active if database is available
+    user_ref = get_user_ref(user_id)
+    if user_ref is not None:
+        try:
+            user_ref.update({'last_active': datetime.now(pytz.utc)})
+        except Exception as e:
+            logger.warning(f"Failed to update last_active for user {user_id}: {e}")
     await message.answer(t("menu_log_water", lang), reply_markup=get_water_keyboard(lang))
 
 
@@ -1713,8 +1738,14 @@ async def handle_water_option(callback: types.CallbackQuery, state: FSMContext):
     else:
         amount = int(callback.data.split("_")[1])
         now = datetime.now(pytz.utc)
-        get_water_ref(user_id).add({'amount': amount, 'timestamp': now})
-        asyncio.create_task(update_streaks_and_challenges(user_id, "water"))
+        # Log water if database is available
+        water_ref = get_water_ref(user_id)
+        if water_ref is not None:
+            try:
+                water_ref.add({'amount': amount, 'timestamp': now})
+                asyncio.create_task(update_streaks_and_challenges(user_id, "water"))
+            except Exception as e:
+                logger.warning(f"Failed to log water for user {user_id}: {e}")
         await callback.message.answer(t("water_logged_custom", lang, amount=amount), reply_markup=get_main_menu_keyboard(lang))
         await callback.answer()
 
@@ -1728,8 +1759,14 @@ async def handle_custom_water(message: types.Message, state: FSMContext):
         if not (0 < amount <= 5000):
             raise ValueError
         now = datetime.now(pytz.utc)
-        get_water_ref(user_id).add({'amount': amount, 'timestamp': now})
-        asyncio.create_task(update_streaks_and_challenges(user_id, "water"))
+        # Log water if database is available
+        water_ref = get_water_ref(user_id)
+        if water_ref is not None:
+            try:
+                water_ref.add({'amount': amount, 'timestamp': now})
+                asyncio.create_task(update_streaks_and_challenges(user_id, "water"))
+            except Exception as e:
+                logger.warning(f"Failed to log custom water for user {user_id}: {e}")
         await message.answer(t("water_logged_custom", lang, amount=amount), reply_markup=get_main_menu_keyboard(lang))
         await state.clear()
     except Exception:
@@ -2886,11 +2923,10 @@ async def handle_photo(message: types.Message, state: FSMContext = None):
         meal_calories = nutrition['calories']
         correct_percentage = int((nutrition['calories'] / daily_calories) * 100) if daily_calories > 0 else 0
         calories_term = terms['calories']
-        analysis = re.sub(
-            rf'- {calories_term}: \d+(\.\d+)? kcal {t("daily_requirement", lang, percentage=r"\d+(\.\d+)?")}',
-            f'- {calories_term}: {meal_calories} kcal {t("daily_requirement", lang, percentage=correct_percentage)} 🧮',
-            analysis
-        )
+        # Create the regex pattern separately to avoid f-string backslash issues
+        pattern = rf'- {calories_term}: \d+(\.\d+)? kcal {t("daily_requirement", lang, percentage=r"\d+(\.\d+)?")}'
+        replacement = f'- {calories_term}: {meal_calories} kcal {t("daily_requirement", lang, percentage=correct_percentage)} 🧮'
+        analysis = re.sub(pattern, replacement, analysis)
 
         meal_ref = get_meals_ref(user_id).add({
             'timestamp': datetime.now(pytz.utc),
@@ -3026,6 +3062,9 @@ async def broadcast_message(message: types.Message):
         await message.answer("Message content is empty")
         return
     progress_msg = await message.answer("Starting broadcast...")
+    if db is None:
+        await message.answer("❌ Database not available - cannot send broadcast message")
+        return
     all_users = list(db.collection('users').stream())
     success_count = 0
     fail_count = 0
@@ -3100,6 +3139,9 @@ async def admin_export_users_handler(callback: types.CallbackQuery):
         return
     await callback.answer()
     try:
+        if db is None:
+            await callback.answer("❌ Database not available - cannot export users", show_alert=True)
+            return
         users = list(db.collection('users').stream())
         import csv
         import tempfile
@@ -3130,6 +3172,9 @@ async def admin_user_stats_handler(callback: types.CallbackQuery):
         return
     await callback.answer()
     try:
+        if db is None:
+            await callback.message.answer("❌ Database not available - cannot get user stats")
+            return
         users = list(db.collection('users').stream())
         total = len(users)
         active = sum(1 for u in users if u.to_dict().get('active', True))
@@ -3150,6 +3195,9 @@ async def admin_force_reminders_handler(callback: types.CallbackQuery):
         return
     await callback.answer("Rescheduling reminders for all users...")
     try:
+        if db is None:
+            await callback.message.answer("❌ Database not available - cannot reschedule reminders")
+            return
         users = list(db.collection('users').stream())
         for u in users:
             d = u.to_dict()
@@ -3164,17 +3212,26 @@ async def admin_force_reminders_handler(callback: types.CallbackQuery):
 async def main():
     scheduler.start()
     # Schedule reminders for all users on startup (await, not create_task)
-    all_users = list(db.collection('users').stream())
-    for user_doc in all_users:
-        user_data = user_doc.to_dict()
-        user_id = int(user_doc.id)
-        timezone = user_data.get('timezone', 'UTC')
+    if db is None:
+        logger.warning("Database not available - skipping startup reminder scheduling")
+        logger.info("Bot starting without database - basic functionality will work")
+    else:
         try:
-            await schedule_default_reminders(user_id, timezone)
-            logger.info(f"Scheduled reminders for user {user_id} on startup.")
+            all_users = list(db.collection('users').stream())
+            for user_doc in all_users:
+                user_data = user_doc.to_dict()
+                user_id = int(user_doc.id)
+                timezone = user_data.get('timezone', 'UTC')
+                try:
+                    await schedule_default_reminders(user_id, timezone)
+                    logger.info(f"Scheduled reminders for user {user_id} on startup.")
+                except Exception as e:
+                    logger.error(f"Failed to schedule reminders for user {user_id} on startup: {e}")
+                await asyncio.sleep(0.01)  # Small delay to avoid CPU spike
         except Exception as e:
-            logger.error(f"Failed to schedule reminders for user {user_id} on startup: {e}")
-        await asyncio.sleep(0.01)  # Small delay to avoid CPU spike
+            logger.error(f"Failed to load users on startup: {e}")
+            logger.warning("Continuing without user data")
+    
     logger.info(f"Total jobs after startup: {len(scheduler.get_jobs())}")
     await dp.start_polling(bot)
 
