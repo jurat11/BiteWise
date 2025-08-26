@@ -816,15 +816,24 @@ def get_user_ref(user_id: int):
 
 
 def get_meals_ref(user_id: int):
-    return get_user_ref(user_id).collection('meals')
+    user_ref = get_user_ref(user_id)
+    if user_ref is None:
+        return None
+    return user_ref.collection('meals')
 
 
 def get_water_ref(user_id: int):
-    return get_user_ref(user_id).collection('water')
+    user_ref = get_user_ref(user_id)
+    if user_ref is None:
+        return None
+    return user_ref.collection('water')
 
 
 def get_streaks_ref(user_id: int):
-    return get_user_ref(user_id).collection('streaks')
+    user_ref = get_user_ref(user_id)
+    if user_ref is None:
+        return None
+    return user_ref.collection('streaks')
 
 # Bot Setup
 bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
@@ -2929,21 +2938,29 @@ async def handle_photo(message: types.Message, state: FSMContext = None):
         replacement = f'- {calories_term}: {meal_calories} kcal {t("daily_requirement", lang, percentage=correct_percentage)} 🧮'
         analysis = re.sub(pattern, replacement, analysis)
 
-        meal_ref = get_meals_ref(user_id).add({
-            'timestamp': datetime.now(pytz.utc),
-            'analysis': analysis,
-            'photo_id': photo.file_id,
-            'meal_type': meal_type,
-            'calories': nutrition['calories'],
-            'protein': nutrition['protein'],
-            'carbs': nutrition['carbs'],
-            'fat': nutrition['fat'],
-            'sodium': nutrition.get('sodium', 0),
-            'fiber': nutrition.get('fiber', 0),
-            'sugar': nutrition.get('sugar', 0)
-        })
-        logger.info(f"Meal logged for user {user_id} with ref {meal_ref[1].id}")
-        asyncio.create_task(update_streaks_and_challenges(user_id, "meal"))
+        # Log meal if database is available
+        meals_ref = get_meals_ref(user_id)
+        if meals_ref is not None:
+            try:
+                meal_ref = meals_ref.add({
+                    'timestamp': datetime.now(pytz.utc),
+                    'analysis': analysis,
+                    'photo_id': photo.file_id,
+                    'meal_type': meal_type,
+                    'calories': nutrition['calories'],
+                    'protein': nutrition['protein'],
+                    'carbs': nutrition['carbs'],
+                    'fat': nutrition['fat'],
+                    'sodium': nutrition.get('sodium', 0),
+                    'fiber': nutrition.get('fiber', 0),
+                    'sugar': nutrition.get('sugar', 0)
+                })
+                logger.info(f"Meal logged for user {user_id} with ref {meal_ref[1].id}")
+                asyncio.create_task(update_streaks_and_challenges(user_id, "meal"))
+            except Exception as e:
+                logger.warning(f"Failed to log meal for user {user_id}: {e}")
+        else:
+            logger.warning(f"Database not available - meal not logged for user {user_id}")
 
         await bot.delete_message(chat_id=processing_msg.chat.id, message_id=processing_msg.message_id)
         await message.answer(analysis)
@@ -3026,21 +3043,29 @@ async def process_meal_text(message: types.Message, state: FSMContext):
             analysis
         )
 
-        meal_ref = get_meals_ref(user_id).add({
-            'timestamp': datetime.now(pytz.utc),
-            'analysis': analysis,
-            'text_input': text,
-            'meal_type': meal_type,
-            'calories': nutrition['calories'],
-            'protein': nutrition['protein'],
-            'carbs': nutrition['carbs'],
-            'fat': nutrition['fat'],
-            'sodium': nutrition.get('sodium', 0),
-            'fiber': nutrition.get('fiber', 0),
-            'sugar': nutrition.get('sugar', 0)
-        })
-        logger.info(f"Meal logged for user {user_id} with ref {meal_ref[1].id}")
-        asyncio.create_task(update_streaks_and_challenges(user_id, "meal"))
+        # Log meal if database is available
+        meals_ref = get_meals_ref(user_id)
+        if meals_ref is not None:
+            try:
+                meal_ref = meals_ref.add({
+                    'timestamp': datetime.now(pytz.utc),
+                    'analysis': analysis,
+                    'text_input': text,
+                    'meal_type': meal_type,
+                    'calories': nutrition['calories'],
+                    'protein': nutrition['protein'],
+                    'carbs': nutrition['carbs'],
+                    'fat': nutrition['fat'],
+                    'sodium': nutrition.get('sodium', 0),
+                    'fiber': nutrition.get('fiber', 0),
+                    'sugar': nutrition.get('sugar', 0)
+                })
+                logger.info(f"Meal logged for user {user_id} with ref {meal_ref[1].id}")
+                asyncio.create_task(update_streaks_and_challenges(user_id, "meal"))
+            except Exception as e:
+                logger.warning(f"Failed to log meal for user {user_id}: {e}")
+        else:
+            logger.warning(f"Database not available - meal not logged for user {user_id}")
 
         await bot.delete_message(chat_id=processing_msg.chat.id, message_id=processing_msg.message_id)
         await message.answer(analysis)
