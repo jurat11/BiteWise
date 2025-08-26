@@ -50,6 +50,7 @@ Thumbs.db
 *.md
 *.txt
 *.rst
+!requirements.txt
 
 # Deployment scripts
 deploy*.sh
@@ -58,6 +59,7 @@ start_bot*.sh
 
 # Other bot files (we only need bot3.py)
 bot*.py
+!bot3.py
 main*.py
 working_bot.py
 bot_components.py
