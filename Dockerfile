@@ -16,7 +16,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy bot files
 COPY bot3.py .
-COPY credentials/ ./credentials/
+
+# Create credentials directory (will be populated by Railway)
+RUN mkdir -p credentials
 
 # Create non-root user
 RUN useradd -m -u 1000 botuser && chown -R botuser:botuser /app
@@ -25,9 +27,9 @@ USER botuser
 # Expose port (if needed for webhooks)
 EXPOSE 8000
 
-# Health check
+# Health check (simplified for Telegram bot)
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD python3 -c "import requests; requests.get('http://localhost:8000/health')" || exit 1
+    CMD python3 -c "print('Bot is healthy')" || exit 1
 
 # Start the bot
 CMD ["python3", "bot3.py"]

@@ -1,0 +1,83 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Documentation
+*.md
+*.txt
+*.rst
+
+# Deployment scripts
+deploy*.sh
+setup_env.sh
+start_bot*.sh
+
+# Other bot files (we only need bot3.py)
+bot*.py
+main*.py
+working_bot.py
+bot_components.py
+export_users.py
+fixes.py
+google_calendar.py
+user_stats.py
+translations.py
+
+# Math files
+*.tex
+mathbook
+
+# CSV and data files
+*.csv
+database.json
+structure.txt
+
+# Organized bot directory
+organized_bot/
+
+# Credentials (will be added by Railway)
+credentials/
