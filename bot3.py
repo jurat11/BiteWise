@@ -2924,7 +2924,8 @@ async def handle_photo(message: types.Message, state: FSMContext = None):
         correct_percentage = int((nutrition['calories'] / daily_calories) * 100) if daily_calories > 0 else 0
         calories_term = terms['calories']
         # Create the regex pattern separately to avoid f-string backslash issues
-        pattern = rf'- {calories_term}: \d+(\.\d+)? kcal {t("daily_requirement", lang, percentage=r"\d+(\.\d+)?")}'
+        daily_req_pattern = r"\d+(\.\d+)?"
+        pattern = rf'- {calories_term}: \d+(\.\d+)? kcal {daily_req_pattern}'
         replacement = f'- {calories_term}: {meal_calories} kcal {t("daily_requirement", lang, percentage=correct_percentage)} 🧮'
         analysis = re.sub(pattern, replacement, analysis)
 
@@ -3017,8 +3018,10 @@ async def process_meal_text(message: types.Message, state: FSMContext):
         meal_calories = nutrition['calories']
         correct_percentage = int((nutrition['calories'] / daily_calories) * 100) if daily_calories > 0 else 0
         calories_term = terms['calories']
+        # Create the regex pattern separately to avoid f-string backslash issues
+        daily_req_pattern = r"\d+(\.\d+)?"
         analysis = re.sub(
-            rf'- {calories_term}: \d+(\.\d+)? kcal {t("daily_requirement", lang, percentage=r"\d+(\.\d+)?")}',
+            rf'- {calories_term}: \d+(\.\d+)? kcal {daily_req_pattern}',
             f'- {calories_term}: {meal_calories} kcal {t("daily_requirement", lang, percentage=correct_percentage)} 🧮',
             analysis
         )
